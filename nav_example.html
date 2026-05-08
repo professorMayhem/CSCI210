@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style>
+
+	/* .navbar is defined for a container that contains ul and li tags for the nav menu */
+	.navbar {
+		background-color:  blue;
+		float: left;
+	}
+
+	/* note the use of ul and .navbar together here.  This defines a ul inside a .navbar container */
+	.navbar ul {
+		background-color: orange;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	  
+	/* here the list tags are defined so they can be used by themselves */  
+	  
+	ul {
+	  
+	}
+
+	li {
+	  float: left;
+	}
+
+	li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size:  20px;
+	}
+
+	li a:hover {
+	  background-color: #111;
+	}
+
+	.headerWrapper {
+		border-style: solid;
+	}
+
+	</style>
+</head>
+
+<body>
+
+	<br><br>
+
+	<div class="headerWrapper">
+	
+		<div class="navbar">
+			<ul>
+			  <li><a class="active" href="#home">Home</a></li>
+			  <li><a href="#news">News</a></li>
+			  <li><a href="#contact">Contact</a></li>
+			  <li><a href="#about">About</a></li>
+			</ul>
+		</div>
+		
+		
+		<div style="float:right; border-style=solid">
+			<p>Hello World</p>
+		</div>
+		
+	</div>
+	
+	<br><br>
+	<p>Hello World</p>
+
+</body>
+</html>

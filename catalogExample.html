@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<style>
+			
+			.headerWrapper {
+				background-color:  black;
+			}
+			.navbar {
+				background-color:  black;
+			}
+
+			.navbar ul {
+				background-color: #333;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+			}
+			  
+			.navbar li {
+				float: left;
+			}
+
+			.navbar li a {
+			  display: block;
+			  color: white;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			  font-size:  20px;
+			}
+
+			.navbar li a:hover {
+			  background-color: #111;
+			  color:  lightblue;
+			}
+
+			.catalogItems {
+				background-color: black; 
+				height: 220px;
+				color:  lime;
+				display: flex;
+				gap: 20px;
+			}
+			
+			.product {
+				flex: 1;
+				background-color: white;
+				margin: 10px 10px 10px 10px;
+				max-width:  150px;
+				border:  4px;
+				border-color:  lime;
+				justify-content: center; 
+				text-align: center;
+				align-items: center;      
+				height: 150px;  
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="headerWrapper">
+		<div class="navbar">
+			<ul >
+			  <li><a class="active" href="#home">Home</a></li>
+			  <li><a href="#news">News</a></li>
+			  <li><a href="#contact">Contact</a></li>
+			  <li><a href="#about">About</a></li>
+			</ul>
+		</div>
+		</div>
+		
+		<br>
+		<h1>Pumpkin Catalog</h1>
+		<br>
+
+		<div class="catalogItems">
+			<div class="product">
+			<img src = "images/pumpkin.jpg"><br>
+			Fresh Pumpkin<br>
+			<button>Add to Cart</button>
+			</div>
+			
+			<div class="product">
+			<img src = "images/pumpkin.jpg"><br>
+			Old Pumpkin<br>
+			<button>Add to Cart</button>
+			</div>
+			
+			<div class="product">
+			<img src = "images/pumpkin.jpg"><br>
+			Another Pumpkin<br>
+			<button>Add to Cart</button>
+			</div>
+		</div>
+		
+	</body>
+
+</html>
